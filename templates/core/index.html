@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Oscar Escamilla{% endblock %}
+
+{% block content %}
+    <div>
+        <h2>Index</h2>
+        <p>esta sera la pagina de inicio con opciones en navbar</p>
+        <a href="{% url 'index_blog'%}">Blog</a>
+    </div>
+{% endblock %}
